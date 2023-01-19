@@ -1,12 +1,15 @@
+import { InputGroup } from "react-bootstrap-v5";
+
 export default function Register ()
 {
     return(
         <div className="page">
-            <div className="title"> Register </div>
+            <div className="title">Create an account </div>
             <div className="form">
-                <header>Create an account</header>
+                  <h2>Sign up with your email</h2>
                 <div>
-                    <h2>Sign up with your email</h2>
+                    <div>Username</div>
+                    
                 </div>
             </div>
         </div>
