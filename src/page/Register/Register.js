@@ -10,6 +10,9 @@ export default function Register (){
                     <input id="email"  type="email"/>
                     <label htmlFor="password">Password</label>
                     <input id="password"/>
+                    <button className="showPass">
+                    </button>
+                    <button  type="submit" className="text--b btn__submit">Sign up</button>
                 </form>
             </div>
         </div>
