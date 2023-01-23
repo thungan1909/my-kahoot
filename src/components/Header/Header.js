@@ -1,4 +1,5 @@
 import React from "react";
+import './Header.css'
 import {
     AppBar,
     Toolbar,
@@ -10,7 +11,7 @@ const Header = () =>
     return (
         <AppBar sx={{background: '#fff'}}>
             <Toolbar>
-                <img src={require('../assets/logo.png')} className='logo' alt="logo"/>
+                <img src={require('../../assets/logo.png')} className='logo' alt="logo"/>
             </Toolbar>
         </AppBar>
     );

@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./page/Login/Login";
 import Register from "./page/Register/Register";
+import './style/style.css'
 function App() {
   return (
     <BrowserRouter>

@@ -1,10 +1,11 @@
-import Header from "../../components/Header"
+import Header from "../../components/Header/Header"
+import './Register.css'
 export default function Register (){
     return(
         <div className="page">
             <Header></Header>
-            <div className="title">Create an account </div>
             <div className="form">
+            <div className="title">Create an account </div>
                   <h2>Sign up with your email</h2>
                 <form className="">
                     <label htmlFor="email">Username</label>
