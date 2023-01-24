@@ -6,3 +6,8 @@
     text-decoration: none;
     list-style: none;     /* Remove dot before ul, li */
 }
+
+html {
+    scroll-behavior: smooth;
+    font-family:  Montserrat, "Noto Sans Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
