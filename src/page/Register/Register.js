@@ -25,7 +25,7 @@ export default function Register (){
                 </form>
                 <div className="form__seperator">
                     <hr className="form__cardLine"></hr>
-                    <span className="form__Or">Or</span>
+                    <span className="form__Or">or</span>
                 </div>
                 <span className="form__redirect">Already have an account? <a href="/login">Login</a></span>
             </div>

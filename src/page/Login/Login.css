@@ -1,0 +1,123 @@
+.page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 205, 205);
+}
+
+.section{
+    display: flex;
+    min-width: 416px;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 2px 4px 0px;
+    padding: 16px;
+
+}
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.formInput{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 2.75rem;
+    border: 1px solid rgb(178,178,178);
+    border-radius: 0.25rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(51,51,51);
+    font-size: 1rem;  /* 16px */
+    line-height: 1.25rem;
+    letter-spacing: 0.2px;
+    transition: all 0.2s ease 0s;
+    appearance: none;
+    text-overflow: ellipsis;
+    resize: none;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 0px 40px 0px 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.formLabel{
+    color: #333;
+    vertical-align: baseline;
+    margin-block: 4px;
+    font-weight: bold;
+}
+
+.SubmitBtn{
+    width: 100%;
+    margin-block: 8px;
+    min-width: 42px;
+    min-height: 42px;
+
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 16px;
+    border: 1px;
+    border-radius: 4px;
+    color: #FFF;
+    background-color: rgb(38, 137, 12);
+    box-shadow: rgb(0 0 0 / 25%) 0px -4px inset;
+
+}
+.recievedInfo{
+    margin-block: 4px;
+    font-size: 12px;
+    color: rgb(51,51,51);
+}
+
+.recieveInfo_cb{
+    margin-right: 4px;
+}
+
+.form__seperator{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.form__cardLine{
+    border-top: 1px solid rgb(204, 204, 204);
+    width: 100%;
+}
+
+.form__Or{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -0.6rem;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 4px;
+}
+.form_text{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(51,51,51);
+    font-size: 12px;
+}
