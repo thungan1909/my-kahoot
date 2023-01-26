@@ -50,6 +50,36 @@
     margin-top: 4px;
     margin-bottom: 4px;
 }
+.showPassBtn{
+    position: absolute;
+    right: 0.35rem;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+
+    border: none;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    outline: none;
+    color: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    appearance: none;
+    position: absolute;
+}
+.passWordWrapper{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
 .formLabel{
     color: #333;
     vertical-align: baseline;
