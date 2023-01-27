@@ -75,6 +75,14 @@
     appearance: none;
     position: absolute;
 }
+.errMsg {
+    color: rgb(226, 27, 60);
+    font-size: 12px;
+    line-height: 1rem;
+    letter-spacing: 0.2px;
+    left: 0px;
+    padding-top: 2px;
+  }
 .passWordWrapper{
     display: flex;
     flex-direction: row;
