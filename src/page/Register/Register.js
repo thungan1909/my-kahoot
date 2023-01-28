@@ -8,6 +8,7 @@ import * as Yup from "yup"
 import { faEyeSlash, faEye } from "@fortawesome/free-solid-svg-icons";
 import { useMutation } from "react-query"
 import axios from 'axios'
+import VerifyEmail from "../VerifyEmail/VerifyEmail";
 export default function Register (){
 
     const [user, setUser] = useState();
@@ -50,7 +51,7 @@ export default function Register (){
         onSubmit: values => {
           
             setUser(values);
-           // mutate();
+           mutate();
         }
     });
     const {isLoading, isError, isSuccess, error, mutate} = useMutation(
@@ -66,6 +67,20 @@ export default function Register (){
     );
     async function postData () {
         return await axios.post("http://54.179.150.210:8000/auth/register", user)
+    }
+    if (isLoading) {
+        return <div>Loading...</div>
+    }
+    if (isError) {
+        return <div>Error! {error.message}</div>
+    }
+    if (isSuccess){
+            const email = formik.values.email;
+            const password = formik.values.password;
+            const verifyCode = "";
+            setUser({email, password, verifyCode});
+            console.log(user);
+        //    return <VerifyEmail user={user}></VerifyEmail>
     }
 
     return(
